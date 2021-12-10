@@ -1,0 +1,9 @@
+@use "sass:math";
+
+@function var-color($color-name) {
+  @return var(--clr-#{"" + $color-name});
+}
+
+@function to-rem($size, $base: 16px) {
+  @return math.div($size, $base) * 1rem;
+}

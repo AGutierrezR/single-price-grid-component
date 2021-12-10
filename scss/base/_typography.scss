@@ -1,0 +1,17 @@
+:root {
+  font-size: 100%;
+}
+
+body {
+  font-family: var(--ff-body);
+  font-size: var(--fs-body);
+  font-weight: var(--fw-regular);
+  color: var(--clr-white);
+}
+
+h1 {
+  font-family: var(--ff-heading);
+  font-size: var(--fs-title);
+  line-height: 1.5;
+  font-weight: 600;
+}
