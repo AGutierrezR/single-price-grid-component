@@ -7,11 +7,23 @@ body {
   font-size: var(--fs-body);
   font-weight: var(--fw-regular);
   color: var(--clr-white);
+  letter-spacing: -0.2px;
+}
+
+h1,
+h2 {
+  font-family: var(--ff-heading);
+  font-weight: var(--fw-bold);
+  line-height: 1.4;
 }
 
 h1 {
-  font-family: var(--ff-heading);
   font-size: var(--fs-title);
-  line-height: 1.5;
-  font-weight: 600;
+  letter-spacing: 0.2px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 1.125rem;
+  margin-bottom: 18px;
 }
