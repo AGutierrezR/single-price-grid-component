@@ -1,50 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Single Price Grid Component</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-  Join our community
+    <title>Frontend Mentor | Single Price Grid Component</title>
 
-  30-day, hassle-free money back guarantee
+    <link rel="stylesheet" href="assets/css/styles.css" />
 
-  Gain access to our full library of tutorials along with expert code reviews. 
-  Perfect for any developers who are serious about honing their skills.
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div
+        class="flex w-full max-w-[310px] flex-col overflow-hidden rounded-lg"
+      >
+        <div class="bg-white p-6 pt-8 pb-9 text-gray-500">
+          <h1 class="mb-5 text-2xl font-semibold tracking-normal text-cyan-500">
+            Join our community
+          </h1>
+          <p class="mb-4 text-base leading-5 text-yellow-300">
+            30-day, hassle-free money back guarantee
+          </p>
+          <p class="text-sm leading-6">
+            Gain access to our full library of tutorials along with expert code
+            reviews. Perfect for any developers who are serious about honing
+            their skills.
+          </p>
+        </div>
+        <div class="bg-cyan-500 p-6 text-white">
+          <h2 class="mb-3 text-xl font-semibold">Monthly Subscription</h2>
+          <p class="mb-1 flex items-center text-base text-gray-300">
+            <span class="mr-3 text-3xl font-semibold text-white"
+              >&dollar;29</span
+            >
+            per month
+          </p>
+          <p class="text-base text-gray-300">
+            Full access for less than &dollar;1 a day
+          </p>
+          <a
+            href="#"
+            class="mt-7 block w-full rounded-md bg-yellow-300 p-3 text-center font-semibold shadow"
+            >Sign Up</a
+          >
+        </div>
+        <div class="bg-cyan-300 p-6 text-gray-300">
+          <h2 class="mb-3 text-xl font-semibold text-white">Why Us</h2>
+          <ul class="text-sm">
+            <li>Tutorials by industry experts</li>
+            <li>Peer &amp; expert code review</li>
+            <li>Coding exercises</li>
+            <li>Access to our GitHub repos</li>
+            <li>Community forum</li>
+            <li>Flashcard decks</li>
+            <li>New videos every week</li>
+          </ul>
+        </div>
+      </div>
+    </main>
 
-  Monthly Subscription
-
-  &dollar;29 per month
-
-  Full access for less than &dollar;1 a day
-
-  Sign Up
-
-  Why Us
-
-  Tutorials by industry experts
-  Peer &amp; expert code review
-  Coding exercises
-  Access to our GitHub repos
-  Community forum
-  Flashcard decks
-  New videos every week
-  
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
-</body>
+    <footer
+      class="text-dark-500 fixed bottom-0 left-1/2 h-[20px] w-screen -translate-x-1/2 text-center text-sm"
+    >
+      Challenge by
+      <a
+        class="underline"
+        href="https://www.frontendmentor.io?ref=challenge"
+        target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a class="underline" href="https://github.com/AGutierrezR"
+        >Andres Gutierrez</a
+      >.
+    </footer>
+  </body>
 </html>
