@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --fs-400: 1rem;
+    --fs-600: 1.2rem;
+  }
+
+  @media (min-width: 1440px) {
+    :root {
+      --fs-400: 1rem;
+      --fs-600: 1.45rem;
+    }
+  }
+
+  body {
+    @apply flex h-[100vh] items-center justify-center bg-gray-300 tracking-tight;
+  }
+}
