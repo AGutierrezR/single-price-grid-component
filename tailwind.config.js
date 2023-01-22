@@ -26,9 +26,6 @@ module.exports = {
         xl: 'var(--fs-500)',
         '2xl': 'var(--fs-600)',
       },
-      boxShadow: {
-        DEFAULT: '0 0 1rem rgb(0 0 0 / 25%);',
-      },
     },
   },
   plugins: [],
